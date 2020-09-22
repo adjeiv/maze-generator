@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maze Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="mazeGame.css">
+	
+</head>
+<body>
+	<!--  can use a progress bar to denote progress through map -->
+
+	<h1>Kruskal's House of Mazes</h1>
+
+	<ul class="nav nav-pills justify-content-center">
+  		<li class="nav-item" id="new">
+    		<a class="nav-link" href="#">New Maze</a>
+  		</li>
+  		<span id="gap"></span>
+  		<li class="nav-item setting" id="visualiser">
+    		<a class="nav-link" href="#">Visualiser</a>
+  		</li>
+  		<li class="nav-item setting">
+    		<a class="nav-link active" href="#">Kruskal</a>
+  		</li>
+  		<li class="nav-item setting">
+    		<a class="nav-link" href="#">Prim</a>
+  		</li>
+	</ul>
+
+	<div id="container">
+		<table id="mazeGrid">
+		</table>
+		<table id="secret">
+		</table>
+	</div>
+
+	
+	<script type="text/javascript" src="binaryHeap.js"></script>
+	<script type="text/javascript" src="disjointSet.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="mazeGame.js"></script>
+</body>
+</html>

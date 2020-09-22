@@ -1,0 +1,38 @@
+h1 {
+	font-family: "Arial";
+	color: #FAF6F6;
+	padding: 0 auto;
+	height: 40px;
+}
+
+
+body {
+	color: white;
+	padding: 0px;
+	text-align: center;
+	background-color: #FCB5B5;
+}
+
+table {
+	margin: 10px auto;
+}
+
+#mazeGrid {
+	margin: 20px auto;
+}
+
+.nav {
+	background-color: #FCDDF2;
+	padding: 10px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#gap {
+	display: inline-block;
+	width: 30px;
+}
+
+body a {
+	font-weight: 700px;
+}
